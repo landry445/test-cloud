@@ -2,6 +2,7 @@
   --bg: #faf9f5;
   --fg: #1f1e1d;
   --accent: #d97757;
+  --blue: #2563eb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +24,9 @@ body {
 
 h1 {
   color: var(--accent);
+}
+
+a,
+.blue {
+  color: var(--blue);
 }
